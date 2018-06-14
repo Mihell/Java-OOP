@@ -2,8 +2,7 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-class LongestNameFinder
-{
+class LongestNameFinder{
 	public static void main (String[] args){
 		ArrayList<String> names = new ArrayList<>(Arrays.asList("Phil", "Anny", "Richard", "Chris"));
 		System.out.println(longestName(names));
