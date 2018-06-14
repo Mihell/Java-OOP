@@ -4,8 +4,7 @@ import java.io.*;
 
 class LongestNameFinder
 {
-	public static void main (String[] args) throws java.lang.Exception
-	{
+	public static void main (String[] args){
 		ArrayList<String> names = new ArrayList<>(Arrays.asList("Phil", "Anny", "Richard", "Chris"));
 		System.out.println(longestName(names));
 	}
